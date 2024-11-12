@@ -14,7 +14,7 @@ def main():
 
     for i in range(30):
         i+=1
-        with open(f"1{i} keyword2 keyword2.md", "+a"):
+        with open(f"{i} keyword2 keyword2.md", "+a"):
             pass
     if len(sys.argv)==1:
         parser.print_help(sys.stderr)
